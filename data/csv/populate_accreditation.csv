@@ -1,0 +1,6 @@
+name,registration_number,website,accreditation_date,status
+"NOKUT","NO-001","https://www.nokut.no","2015-06-15","Active"
+"Utdanningsdirektoratet","NO-002","https://www.udir.no","2017-03-22","Active"
+"Universitets- og høgskolerådet","NO-003","https://www.uhr.no","2019-09-10","Active"
+"Fagskoleakkreditering","NO-004","https://www.fagskole.no","2021-11-30","Expired"
+"Norsk Senter for Informasjonssikring","NO-005","https://www.norsis.no","2023-08-05","Pending"

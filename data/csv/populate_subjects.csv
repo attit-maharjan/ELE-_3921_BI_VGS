@@ -1,0 +1,81 @@
+code,name,department,course_type,is_active
+BIO-201,Principles of Biology,SCI - Science,SG - Standard Grade,True
+BIO-202,Advanced Biology,SCI - Science,HG - Higher Grade,True
+BIO-501,Advanced Biology & Ecology,SCI - Science,SG - Standard Grade,True
+BIO-502,Molecular Biology & Biotechnology,SCI - Science,HG - Higher Grade,True
+BIO-601,Molecular Biology & Biotechnology,SCI - Science,SG - Standard Grade,True
+BIO-602,Advanced Molecular Genetics,SCI - Science,HG - Higher Grade,True
+BUS-301,Business & Entrepreneurship,BUS - Business & Entrepreneurship,SG - Standard Grade,True
+BUS-302,Advanced Business Management,BUS - Business & Entrepreneurship,HG - Higher Grade,True
+BUS-501,Business Management & Marketing,BUS - Business & Entrepreneurship,SG - Standard Grade,True
+BUS-502,International Business Strategies,BUS - Business & Entrepreneurship,HG - Higher Grade,True
+BUS-601,Advanced Business & Financial Management,BUS - Business & Entrepreneurship,SG - Standard Grade,True
+BUS-602,Global Business & Finance,BUS - Business & Entrepreneurship,HG - Higher Grade,True
+CHE-301,Chemistry in Action,SCI - Science,SG - Standard Grade,True
+CHE-302,Organic Chemistry,SCI - Science,HG - Higher Grade,True
+CHE-501,Environmental Chemistry,SCI - Science,SG - Standard Grade,True
+CHE-502,Advanced Environmental Chemistry,ENV - Environmental Science,HG - Higher Grade,True
+CHE-601,Organic Chemistry & Synthesis,SCI - Science,SG - Standard Grade,True
+CHE-602,Advanced Organic Chemistry & Reactions,SCI - Science,HG - Higher Grade,True
+ECO-401,Macroeconomics & Global Trade,ECO - Economics & Economic Theory,SG - Standard Grade,True
+ECO-402,Global Economics & Development,ECO - Economics & Economic Theory,HG - Higher Grade,True
+ENG-101,English for Communication,ENG - English / Language Arts,SG - Standard Grade,True
+ENG-102,English Literature and Analysis,ENG - English / Language Arts,HG - Higher Grade,True
+ENG-201,Advanced English Composition,ENG - English / Language Arts,SG - Standard Grade,True
+ENG-202,Literary Criticism & Writing,ENG - English / Language Arts,HG - Higher Grade,True
+ENG-301,English Literature & Analysis,ENG - English / Language Arts,SG - Standard Grade,True
+ENG-302,Comparative Literature & Interpretation,ENG - English / Language Arts,HG - Higher Grade,True
+ENG-401,Creative Writing & Rhetoric,ENG - English / Language Arts,SG - Standard Grade,True
+ENG-402,Advanced English Rhetoric,ENG - English / Language Arts,HG - Higher Grade,True
+ENG-501,Advanced English: Poetry & Prose,ENG - English / Language Arts,SG - Standard Grade,True
+ENG-502,Literary Analysis & Theory,ENG - English / Language Arts,HG - Higher Grade,True
+ENG-601,World Literature & Critical Thinking,ENG - English / Language Arts,SG - Standard Grade,True
+ENG-602,Global Literature & Comparative Studies,ENG - English / Language Arts,HG - Higher Grade,True
+GEO-201,World Geography and Cultures,SOC - Social Studies / History,SG - Standard Grade,True
+GEO-202,Geospatial Analysis & Advanced Geography,ENV - Environmental Science,HG - Higher Grade,True
+GEO-501,Human Geography & Urban Studies,SOC - Social Studies / History,SG - Standard Grade,True
+GEO-502,Global Urbanization & Development,SOC - Social Studies / History,HG - Higher Grade,True
+HIS-301,Modern History & Global Perspectives,SOC - Social Studies / History,SG - Standard Grade,True
+HIS-302,World History & Philosophy,SOC - Social Studies / History,HG - Higher Grade,True
+ICT-101,Digital Literacy & ICT,CSC - Computer Science / IT,SG - Standard Grade,True
+ICT-102,Information Systems & Technology,CSC - Computer Science / IT,HG - Higher Grade,True
+ICT-201,Foundations of ICT,CSC - Computer Science / IT,SG - Standard Grade,True
+ICT-202,Advanced ICT Systems,CSC - Computer Science / IT,HG - Higher Grade,True
+ICT-501,ICT & Emerging Technologies,CSC - Computer Science / IT,SG - Standard Grade,True
+ICT-502,Advanced Digital Systems,CSC - Computer Science / IT,HG - Higher Grade,True
+ICT-601,ICT & Emerging Technologies,CSC - Computer Science / IT,SG - Standard Grade,True
+ICT-602,Artificial Intelligence & Data Science,CSC - Computer Science / IT,HG - Higher Grade,True
+MAT-101,Foundations of Mathematics,MAT - Mathematics,SG - Standard Grade,True
+MAT-102,Mathematics for High School,MAT - Mathematics,HG - Higher Grade,True
+MAT-201,Mathematical Reasoning,MAT - Mathematics,SG - Standard Grade,True
+MAT-202,Advanced Mathematics,MAT - Mathematics,HG - Higher Grade,True
+MAT-301,Algebra and Geometry,MAT - Mathematics,SG - Standard Grade,True
+MAT-302,Advanced Algebra & Geometry,MAT - Mathematics,HG - Higher Grade,True
+MAT-401,Advanced Mathematics & Trigonometry,MAT - Mathematics,SG - Standard Grade,True
+MAT-402,Calculus & Trigonometry,MAT - Mathematics,HG - Higher Grade,True
+MAT-501,Mathematical Models & Calculus,MAT - Mathematics,SG - Standard Grade,True
+MAT-502,Advanced Calculus & Differential Equations,MAT - Mathematics,HG - Higher Grade,True
+MAT-601,Advanced Calculus & Mathematical Applications,MAT - Mathematics,SG - Standard Grade,True
+MAT-602,Applied Calculus & Complex Systems,MAT - Mathematics,HG - Higher Grade,True
+PED-101,Physical Education & Wellness,PHE - Physical Education (PE) & Sports,SG - Standard Grade,True
+PED-102,Physical Education: Advanced Techniques,PHE - Physical Education (PE) & Sports,HG - Higher Grade,True
+PED-201,Health & Physical Education,HEA - Health Sciences / Pre-Nursing,SG - Standard Grade,True
+PED-202,Sports & Nutrition Science,HNU - Health & Nutrition,HG - Higher Grade,True
+PED-301,Physical Fitness & Sports Science,PHE - Physical Education (PE) & Sports,SG - Standard Grade,True
+PED-302,Sports Psychology & Performance,PHE - Physical Education (PE) & Sports,HG - Higher Grade,True
+PED-401,Sports Science & Performance,PHE - Physical Education (PE) & Sports,SG - Standard Grade,True
+PED-402,Biomechanics & Exercise Science,PHE - Physical Education (PE) & Sports,HG - Higher Grade,True
+PED-501,Physical Education: Leadership in Sports,PHE - Physical Education (PE) & Sports,SG - Standard Grade,True
+PED-502,Sport Leadership & Management,PHE - Physical Education (PE) & Sports,HG - Higher Grade,True
+PED-601,Advanced Sports Science & Kinesiology,PHE - Physical Education (PE) & Sports,SG - Standard Grade,True
+PED-602,Sports Physiology & Performance Optimization,PHE - Physical Education (PE) & Sports,HG - Higher Grade,True
+PHY-401,Physics: Laws of Nature,SCI - Science,SG - Standard Grade,True
+PHY-402,Advanced Physics: Theories,SCI - Science,HG - Higher Grade,True
+PHY-601,Quantum Physics & Theories,SCI - Science,SG - Standard Grade,True
+PHY-602,Advanced Quantum Mechanics,SCI - Science,HG - Higher Grade,True
+POL-401,Civics & Political Awareness,SOC - Social Studies / History,SG - Standard Grade,True
+POL-402,Political Science & Global Relations,SOC - Social Studies / History,HG - Higher Grade,True
+SCI-101,Introduction to General Science,SCI - Science,SG - Standard Grade,True
+SCI-102,Advanced General Science,SCI - Science,HG - Higher Grade,True
+SOC-101,Global Social Studies,SOC - Social Studies / History,SG - Standard Grade,True
+SOC-102,World History & Cultures,SOC - Social Studies / History,HG - Higher Grade,True

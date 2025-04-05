@@ -1,0 +1,27 @@
+first_name,last_name,dob,gender,email,subject_specialization,employment_type,salary
+Kevin,Odhiambo,1985-07-15,male,kevin@school.com,Mathematics,permanent,50000
+Faith,Wanjiku,1990-05-20,female,faith@school.com,English,part_time,30000
+Lars,Henrik,1982-03-10,male,lars@school.com,Mathematics,contract,45000
+Ingrid,Marie,1987-12-30,female,ingrid@school.com,English Literature,permanent,52000
+Mark,Anderson,1980-05-14,male,mark@school.com,Mathematics,permanent,55000
+Emily,Carter,1982-11-02,female,emily@school.com,Mathematics,permanent,60000
+Daniel,Thompson,1985-07-20,male,daniel@school.com,English,contract,48000
+Olivia,Williams,1991-04-15,female,olivia@school.com,English,permanent,52000
+Prakash,Raj,1985-10-10,male,prakash@school.com,Science,permanent,50000
+Anisha,Devi,1986-03-17,female,anisha@school.com,Science,contract,45000
+Christopher,Evans,1990-01-22,male,christopher@school.com,Science,part_time,40000
+Sarah,Green,1983-09-30,female,sarah@school.com,Science,permanent,57000
+James,Robinson,1984-12-05,male,james@school.com,Science,permanent,60000
+Rohan,Kumar,1982-04-10,male,rohan@school.com,Social Studies,permanent,48000
+Jessica,Adams,1988-06-30,female,jessica@school.com,Social Studies,contract,46000
+Anthony,Scott,1986-09-15,male,anthony@school.com,Social Studies,part_time,42000
+Laura,White,1990-03-22,female,laura@school.com,Social Studies,permanent,51000
+Priya,Anjali,1984-08-05,female,priya@school.com,Business & ICT,permanent,53000
+Andrew,Lewis,1990-07-12,male,andrew@school.com,Business & ICT,contract,48000
+Sophia,Miller,1992-04-20,female,sophia@school.com,Business & ICT,part_time,45000
+Michael,Carter,1987-01-15,male,michael@school.com,Business & ICT,permanent,55000
+Ethan,Harris,1989-10-10,male,ethan@school.com,Business & ICT,permanent,60000
+Sibusiso,Thabo,1985-11-03,male,sibusiso@school.com,Physical Education,permanent,48000
+Nomvula,Lerato,1986-05-25,female,nomvula@school.com,Physical Education,contract,45000
+Brian,Walker,1983-07-15,male,brian@school.com,Physical Education,part_time,42000
+Rachel,Martinez,1987-02-28,female,rachel@school.com,Physical Education,permanent,55000

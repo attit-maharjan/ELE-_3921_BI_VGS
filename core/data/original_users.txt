@@ -1,0 +1,131 @@
+from django.contrib.auth.models import AbstractUser, Group, Permission
+from django.db import models
+
+class User(AbstractUser):
+    # Role choices
+    ROLE_CHOICES = [
+        ('teacher', 'Teacher'),
+        ('student', 'Student'),
+        ('parent', 'Parent'),
+        ('staff', 'Staff'),
+        ('stakeholder', 'Stakeholder'),
+    ]
+
+    first_name = models.CharField(max_length=30)
+    initials = models.CharField(max_length=10, blank=True, null=True)
+    last_name = models.CharField(max_length=30)
+    email = models.EmailField(unique=True)
+    dob = models.DateField(null=True, blank=True)
+    phone_number = models.CharField(max_length=15, blank=True, null=True)  # Optional field
+    address = models.TextField(blank=True, null=True)  # Optional field
+    role = models.CharField(
+        max_length=50,
+        choices=ROLE_CHOICES,  # Choose from the predefined roles
+        blank=False,  # Makes role mandatory
+        default='student'  # Default role can be set to 'student' or any other appropriate role
+    )
+    is_active = models.BooleanField(default=True)  # Default value
+    date_joined = models.DateTimeField(auto_now_add=True)
+
+    groups = models.ManyToManyField(Group, related_name="custom_user_set", blank=True)
+    user_permissions = models.ManyToManyField(Permission, related_name="custom_user_permissions_set", blank=True)
+
+    def __str__(self):
+        return f"{self.first_name} {self.last_name}"
+
+    class Meta:
+        permissions = [
+            ("can_view_reports", "Can view reports"),
+            ("can_manage_fees", "Can manage fees"),
+        ]
+
+
+
+
+
+class Student(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    enrollment_date = models.DateField()
+    student_id = models.CharField(max_length=20, unique=True)
+    grade_level = models.IntegerField()
+    guardian = models.ForeignKey('Parent', on_delete=models.SET_NULL, null=True, blank=True)
+
+    def __str__(self):
+        return f"Student: {self.user.first_name} {self.user.last_name}"
+
+
+class Parent(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    relationship_to_student = models.CharField(
+        max_length=50,
+        choices=[('Mother', 'Mother'), ('Father', 'Father'), ('Guardian', 'Guardian')],
+        default='Guardian'  # Example: Default can be useful
+    )
+    phone_number = models.CharField(max_length=15)  # Required field for Parent
+    address = models.TextField(blank=True, null=True)  # Optional field
+
+    def __str__(self):
+        return f"Parent: {self.user.first_name} {self.user.last_name}"
+
+
+class Staff(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    staff_role = models.CharField(max_length=100)
+    hire_date = models.DateField()
+    salary = models.DecimalField(max_digits=10, decimal_places=2)
+
+    def __str__(self):
+        return f"Staff: {self.user.first_name} {self.user.last_name}"
+
+
+class Stakeholder(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    stakeholder_type = models.CharField(
+        max_length=50,
+        choices=[('Investor', 'Investor'), ('Board Member', 'Board Member'), ('Donor', 'Donor'), ('Government', 'Government')],
+        default='Donor'  # Default choice based on business requirements
+    )
+
+    def __str__(self):
+        return f"Stakeholder: {self.user.first_name} {self.user.last_name}"
+    
+class Qualification(models.Model):
+    TEACHER = 'teacher'  # Ensures only teachers can add qualifications
+
+    LEVEL_CHOICES = [
+        ("Diploma", "Diploma"),
+        ("Bachelor", "Bachelor"),
+        ("Master", "Master"),
+        ("PhD", "PhD"),
+        ("Certificate", "Certificate"),
+        ("Other", "Other"),
+    ]
+
+    teacher = models.ForeignKey('Teacher', on_delete=models.CASCADE, related_name='qualifications', null=True)  # Connect to a teacher
+    level = models.CharField(max_length=50, choices=LEVEL_CHOICES, default="Bachelor")
+    name = models.CharField(max_length=255)  # Allow teachers to type their qualification name Example: "B.Ed Mathematics", "M.Sc Physics"
+    institution = models.CharField(max_length=255, blank=True, null=True)  # University name
+    year_awarded = models.IntegerField(blank=True, null=True)  # Optional: Year of graduation
+
+    def __str__(self):
+        return f"{self.name} ({self.level}) - {self.teacher.user.first_name} {self.teacher.user.last_name}"
+
+    class Meta:
+        verbose_name = "Qualification"
+        verbose_name_plural = "Qualifications"
+
+
+
+class Teacher(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    subject_specialization = models.ManyToManyField('academics.Subject', related_name="specialist_teachers")  # Allow multiple subjects
+    hire_date = models.DateField()
+    employee_id = models.CharField(max_length=20, unique=True)
+
+    def __str__(self):
+        return f"{self.user.first_name} {self.user.last_name} - {self.employee_id}"
+    
+    
+
+
+

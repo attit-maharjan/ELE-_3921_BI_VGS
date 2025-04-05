@@ -1,0 +1,78 @@
+fNAME,lNAME,Age,gender,country_origin,residence,entryEXAM,prevEducation,studyHOURS,Python,DB,email,street_address,city,state_province,postal_code,country,password1,password2,phone_number,num,phone_number
+Christina,Binger,44,Female,Norway,Private,72,Masters,158,59,55,christina_binger@bivgs.no,51 Kirkeveien, Fredrikstad, Viken,7731,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,123,+4774860123
+Alex,Walekhwa,60,Male,Kenya,Private,79,Diploma,150,60,75,alex_walekhwa@bivgs.no,130 E6, Ålesund, Innlandet,1468,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,124,+4774860124
+Philip,Leo,25,Male,Uganda,Sognsvann,55,High School,130,74,50,philip_leo@bivgs.no,65 Storgata, Tromsø, Agder,8845,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,125,+4774860125
+Shoni,Hlongwane,22,Female,RSA,Sognsvann,40,High School,120,75,44,shoni_hlongwane@bivgs.no,55 E6, Drammen, Trøndelag,1406,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,126,+4774860126
+Maria,Kedibone,23,Female,RSA,Sognsvann,65,High School,122,91,80,maria_kedibone@bivgs.no,22 Kirkeveien, Oslo, Troms og Finnmark,4952,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,127,+4774860127
+Hannah,Hansen,25,Female,Norway,BI Residence,66,High School,130,88,59,hannah_hansen@bivgs.no,141 Sørlandsveien, Bergen, Møre og Romsdal,6025,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,128,+4774860128
+Ole,Johansen,27,Male,Norway,BI Residence,90,Bachelor,156,80,91,ole_johansen@bivgs.no,26 Sørlandsveien, Oslo, Troms og Finnmark,1746,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,129,+4774860129
+Lars,Olsen,29,Male,Norway,BI Residence,89,Bachelor,160,85,60,lars_olsen@bivgs.no,22 Sørlandsveien, Stavanger, Rogaland,4676,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,130,+4774860130
+Bj�rn,Larsen,31,Male,Norway,BI Residence,88,Bachelor,156,80,89,bj�rn_larsen@bivgs.no,31 Sørlandsveien, Tromsø, Møre og Romsdal,4558,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,131,+4774860131
+Sofie,Jensen,33,Female,Denmark,BI Residence,85,Bachelor,160,83,90,sofie_jensen@bivgs.no,145 Fjordveien, Drammen, Viken,8055,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,132,+4774860132
+Emma,de Vries,34,Female,Netherlands,BI Residence,65,Bachelor,156,79,58,emma_de vries@bivgs.no,124 Fjordveien, Kristiansand, Vestland,6025,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,133,+4774860133
+Solveig,Eliassen,36,Female,Norway,Private,70,Diploma,156,80,55,solveig_eliassen@bivgs.no,17 Kirkeveien, Ålesund, Agder,9993,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,134,+4774860134
+Odd,Knudsen,38,Male,Norway,Private,91,Diploma,156,85,99,odd_knudsen@bivgs.no,82 Fjordveien, Bergen, Møre og Romsdal,6961,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,135,+4774860135
+Grethe,Myklebust,40,Female,Norway,Private,77,Diploma,144,70,76,grethe_myklebust@bivgs.no,113 E6, Drammen, Viken,8137,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,136,+4774860136
+Marco,Rossi,42,Male,Italy,Private,80,Bachelor,152,75,77,marco_rossi@bivgs.no,120 Kirkeveien, Ålesund, Viken,9818,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,137,+4774860137
+Ingrid,Eide,43,Female,Norway,Private,81,Bachelor,156,80,82,ingrid_eide@bivgs.no,2 Fjordveien, Ålesund, Innlandet,9818,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,138,+4774860138
+Hanna,Andresen,45,Female,Norway,Private,85,Bachelor,156,87,82,hanna_andresen@bivgs.no,38 Kirkeveien, Trondheim, Viken,8084,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,139,+4774860139
+Jorunn,Eliassen,47,Female,Norway,Private,86,Bachelor,156,80,78,jorunn_eliassen@bivgs.no,2 E6, Bergen, Oslo,8627,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,140,+4774860140
+Sebastian,Kristiansen,48,Male,Norway,Private,75,Bachelor,148,76,73,sebastian_kristiansen@bivgs.no,17 Sørlandsveien, Oslo, Agder,5196,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,141,+4774860141
+Camilla,Mikkelsen,50,Female,Norway,Private,95,Masters,160,84,90,camilla_mikkelsen@bivgs.no,109 Sørlandsveien, Trondheim, Agder,4649,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,142,+4774860142
+Prof,Birkeland,22,Male,Norway,BI Residence,45,High School,116,33,30,prof_birkeland@bivgs.no,47 E6, Ålesund, Vestland,8462,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,143,+4774860143
+Hanna,Isaksen,24,Female,Norway,BI Residence,50,High School,114,30,50,hanna_isaksen@bivgs.no,97 E6, Drammen, Vestland,7476,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,144,+4774860144
+Kristine,Berg,26,Female,Norway,BI Residence,55,High School,140,61,56,kristine_berg@bivgs.no,87 Fjordveien, Oslo, Innlandet,5093,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,145,+4774860145
+Carmen,Rodr�guez,28,Female,Spain,BI Residence,78,Bachelor,156,80,55,carmen_rodr�guez@bivgs.no,50 Sørlandsveien, Bergen, Rogaland,7221,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,146,+4774860146
+Odd,Ahmed,30,Male,Norway,BI Residence,82,Bachelor,156,82,65,odd_ahmed@bivgs.no,124 E6, Stavanger, Troms og Finnmark,5061,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,147,+4774860147
+Gunnar,Brekke,32,Male,Norway,BI Residence,81,Bachelor,158,85,83,gunnar_brekke@bivgs.no,29 Kirkeveien, Ålesund, Troms og Finnmark,2011,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,148,+4774860148
+Gerd,Bakken,35,Female,Norway,BI Residence,92,Masters,160,87,88,gerd_bakken@bivgs.no,58 Sørlandsveien, Bergen, Møre og Romsdal,3547,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,149,+4774860149
+Aisha,Nakaweesi,37,Female,Uganda,Private,55,Diploma,142,66,58,aisha_nakaweesi@bivgs.no,107 Sørlandsveien, Bergen, Vestland,7962,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,150,+4774860150
+Kato,Muwanguzi,39,Male,Uganda,Private,80,Bachelor,156,81,69,kato_muwanguzi@bivgs.no,95 Sørlandsveien, Haugesund, Oslo,1437,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,151,+4774860151
+Nansubuga,Nakalema,41,Female,Uganda,Private,86,Bachelor,154,81,91,nansubuga_nakalema@bivgs.no,74 Fjordveien, Drammen, Viken,2517,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,152,+4774860152
+Joakim,Edvardsen,44,Male,Norway,Private,78,Diploma,152,80,79,joakim_edvardsen@bivgs.no,110 E6, Haugesund, Trøndelag,6728,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,153,+4774860153
+Don,Pettersen,46,Male,Norway,Private,76,Diploma,156,85,45,don_pettersen@bivgs.no,50 E6, Haugesund, Trøndelag,2517,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,154,+4774860154
+Perry,R�nning,71,Female,Norway,Private,30,Doctorate,120,31,42,perry_r�nning@bivgs.no,126 Storgata, Tromsø, Vestland,8627,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,155,+4774860155
+Frank,Abrahamsen,23,Male,Norway,BI Residence,68,High School,152,75,70,frank_abrahamsen@bivgs.no,79 E6, Trondheim, Møre og Romsdal,1537,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,156,+4774860156
+Line,N�ss,25,Female,Norway,BI Residence,98,High School,160,90,90,line_n�ss@bivgs.no,71 Sørlandsveien, Oslo, Viken,7483,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,157,+4774860157
+Thor,Sandvik,27,Male,Norway,BI Residence,85,Bachelor,158,84,90,thor_sandvik@bivgs.no,83 Fjordveien, Stavanger, Innlandet,9901,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,158,+4774860158
+Petter,Ellingsen,29,Male,Norway,BI Residence,75,Diploma,156,81,74,petter_ellingsen@bivgs.no,102 E6, Drammen, Innlandet,5061,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,159,+4774860159
+Sindre,Hansen,31,Male,Norway,BI Residence,95,Bachelor,158,87,99,sindre_hansen@bivgs.no,144 E6, Drammen, Innlandet,9818,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,160,+4774860160
+Simen,Myhre,33,Female,Norway,BI Residence,50,Diploma,144,69,33,simen_myhre@bivgs.no,11 Storgata, Ålesund, Møre og Romsdal,6207,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,161,+4774860161
+Bj�rg,Fredriksen,35,Male,Norway,BI Residence,68,Diploma,136,60,78,bj�rg_fredriksen@bivgs.no,33 Kirkeveien, Drammen, Oslo,4614,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,162,+4774860162
+Trond,Karlsen,37,Female,Norway,Private,45,Bachelor,142,57,50,trond_karlsen@bivgs.no,40 Sørlandsveien, Stavanger, Troms og Finnmark,8084,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,163,+4774860163
+Emily,Thompson,39,Female,Uk,Private,90,Masters,158,85,74,emily_thompson@bivgs.no,103 Kirkeveien, Haugesund, Vestland,7962,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,164,+4774860164
+Unni,Jacobsen,41,Female,Norway,Private,90,Masters,156,80,83,unni_jacobsen@bivgs.no,7 Fjordveien, Bergen, Trøndelag,7731,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,165,+4774860165
+Grethe,Brekke,43,Female,Norway,Private,96,Masters,158,87,92,grethe_brekke@bivgs.no,19 Sørlandsveien, Tromsø, Vestland,3511,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,166,+4774860166
+Ruth,Pedersen,45,Female,Norway,Private,95,Masters,160,88,86,ruth_pedersen@bivgs.no,41 Storgata, Tromsø, Møre og Romsdal,1437,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,167,+4774860167
+Inger,Jensen,47,Male,Norway,Private,89,Doctorate,160,86,60,inger_jensen@bivgs.no,2 Fjordveien, Kristiansand, Møre og Romsdal,4365,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,168,+4774860168
+Peninah,Andresen,22,Female,Norway,BI Residence,78,High School,148,78,74,peninah_andresen@bivgs.no,72 Sørlandsveien, Tromsø, Trøndelag,9818,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,169,+4774860169
+Berit,Eide,24,Female,Norway,BI Residence,54,High School,136,57,50,berit_eide@bivgs.no,55 Fjordveien, Stavanger, Agder,6728,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,170,+4774860170
+Jenny,Kristoffersen,26,Female,Norway,BI Residence,68,High School,124,48,62,jenny_kristoffersen@bivgs.no,20 Sørlandsveien, Stavanger, Møre og Romsdal,7962,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,171,+4774860171
+Thea,Knutsen,28,Male,Norway,BI Residence,69,High School,120,45,70,thea_knutsen@bivgs.no,78 E6, Drammen, Trøndelag,3554,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,172,+4774860172
+Dag,Arnesen,30,Male,Norway,BI Residence,95,Diploma,160,90,89,dag_arnesen@bivgs.no,23 Storgata, Tromsø, Rogaland,6581,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,173,+4774860173
+Mwanaidi,Ali,32,Female,Somali,BI Residence,82,Bachelor,156,84,59,mwanaidi_ali@bivgs.no,79 E6, Stavanger, Vestland,4119,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,174,+4774860174
+Bj�rn,Pedersen,21,Female,Norway,BI Residence,70,High School,138,69,47,bj�rn_pedersen@bivgs.no,136 Storgata, Kristiansand, Troms og Finnmark,9931,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,175,+4774860175
+Chinedu,Morison,36,Male,Nigeria,Private,28,Diploma,120,15,67,chinedu_morison@bivgs.no,105 Kirkeveien, Bergen, Innlandet,6457,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,176,+4774860176
+Irene,Str�mertan,38,Female,Norway,Private,80,Masters,158,84,50,irene_str�mertan@bivgs.no,27 Fjordveien, Ålesund, Vestland,6649,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,177,+4774860177
+Chinedu,Okafor,69,Male,Nigeria,Private,94,Doctorate,160,87,88,chinedu_okafor@bivgs.no,103 Storgata, Oslo, Viken,4952,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,178,+4774860178
+Marianne,Ruud,42,Male,Norway,Private,91,Doctorate,158,84,82,marianne_ruud@bivgs.no,22 E6, Bergen, Møre og Romsdal,7800,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,179,+4774860179
+Jens,Lunde,25,Male,Norway,BI Residence,90,High School,156,81,100,jens_lunde@bivgs.no,33 Kirkeveien, Fredrikstad, Vestland,4676,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,180,+4774860180
+Morten,Olsen,46,Female,Norway,Private,94,Doctorate,160,90,77,morten_olsen@bivgs.no,85 Sørlandsveien, Haugesund, Møre og Romsdal,2011,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,181,+4774860181
+Karoline,Ahmed,26,Female,Norway,BI Residence,76,High School,156,84,61,karoline_ahmed@bivgs.no,81 Fjordveien, Fredrikstad, Oslo,6728,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,182,+4774860182
+Ola,Bakke,50,Female,Norway,Private,81,Bachelor,158,87,46,ola_bakke@bivgs.no,118 Storgata, Kristiansand, Rogaland,6490,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,183,+4774860183
+Tore,Abrahamsen,22,Female,Norway,BI Residence,73,High School,144,70,55,tore_abrahamsen@bivgs.no,61 Kirkeveien, Trondheim, Rogaland,3182,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,184,+4774860184
+Caroline,Narocho,23,Female,Norway,BI Residence,90,High School,160,87,73,caroline_narocho@bivgs.no,108 Sørlandsveien, Ålesund, Troms og Finnmark,8176,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,185,+4774860185
+Silvia,Berg,25,Female,Norway,BI Residence,81,High School,158,85,46,silvia_berg@bivgs.no,145 Kirkeveien, Drammen, Trøndelag,6917,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,186,+4774860186
+Valentino,Ojiambo,27,Male,Kenya,Sognsvann,85,Bachelor,156,84,68,valentino_ojiambo@bivgs.no,25 Kirkeveien, Oslo, Oslo,6917,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,187,+4774860187
+Peter,Kubebea,29,Male,Kenya,Sognsvann,83,Bachelor,156,81,67,peter_kubebea@bivgs.no,2 Storgata, Kristiansand, Vestland,4558,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,188,+4774860188
+Anna,M�ller,31,Female,Germany,Sognsvann,89,Masters,160,87,61,anna_m�ller@bivgs.no,4 Sørlandsveien, Ålesund, Trøndelag,6917,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,189,+4774860189
+Lucas,Schmidt,33,Male,Germany,Sognsvann,98,Masters,160,87,86,lucas_schmidt@bivgs.no,17 Kirkeveien, Haugesund, Agder,4650,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,190,+4774860190
+Marie,Dubois,35,Female,France,Sognsvann,69,Bachelor,144,69,45,marie_dubois@bivgs.no,113 Sørlandsveien, Drammen, Rogaland,6581,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,191,+4774860191
+Thomas,Garc�a,37,Male,Spain,Private,80,Bachelor,152,78,62,thomas_garc�a@bivgs.no,75 Fjordveien, Bergen, Innlandet,3438,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,192,+4774860192
+Emma,Janssen,39,Female,Netherlands,Private,81,Masters,160,80,71,emma_janssen@bivgs.no,149 Sørlandsveien, Kristiansand, Innlandet,8462,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,193,+4774860193
+Maximilan,Martini,50,Male,Italy,Private,74,Masters,140,63,60,maximilan_martini@bivgs.no,89 Sørlandsveien, Tromsø, Rogaland,3511,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,194,+4774860194
+Clara,Bernard,43,Female,France,Private,80,Bachelor,150,75,43,clara_bernard@bivgs.no,147 Kirkeveien, Stavanger, Agder,4519,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,195,+4774860195
+Julian,Nielsen,31,Male,Denmark,Sognsvann,90,Masters,158,84,83,julian_nielsen@bivgs.no,86 Fjordveien, Trondheim, Innlandet,6732,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,196,+4774860196
+Sophie,Brown,33,Female,Uk,Sognsvann,96,Masters,158,85,90,sophie_brown@bivgs.no,45 Sørlandsveien, Oslo, Vestland,5196,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,197,+4774860197
+Leon,Bauer,35,Male,Germany,Sognsvann,90,Masters,160,87,74,leon_bauer@bivgs.no,3 Kirkeveien, Drammen, Agder,1437,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,198,+4774860198
+Mohammed,Salim,31,Male,Somali,Sognsvann,35,Masters,144,72,90,mohammed_salim@bivgs.no,60 Kirkeveien, Ålesund, Viken,9222,Norway,@0BusiaKenya,@0BusiaKenya,+4774860,199,+4774860199

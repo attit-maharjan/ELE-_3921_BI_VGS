@@ -1,0 +1,78 @@
+fNAME,lNAME,gender,email,street_address,city,state_province,postal_code,country,password1,password2,phone_number
+Christina,Binger,Female,christina_binger@bivgs.no,51 Kirkeveien, Fredrikstad, Viken,7731,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860123
+Alex,Walekhwa,Male,alex_walekhwa@bivgs.no,130 E6, Ålesund, Innlandet,1468,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860124
+Philip,Leo,Male,philip_leo@bivgs.no,65 Storgata, Tromsø, Agder,8845,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860125
+Shoni,Hlongwane,Female,shoni_hlongwane@bivgs.no,55 E6, Drammen, Trøndelag,1406,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860126
+Maria,Kedibone,Female,maria_kedibone@bivgs.no,22 Kirkeveien, Oslo, Troms og Finnmark,4952,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860127
+Hannah,Hansen,Female,hannah_hansen@bivgs.no,141 Sørlandsveien, Bergen, Møre og Romsdal,6025,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860128
+Ole,Johansen,Male,ole_johansen@bivgs.no,26 Sørlandsveien, Oslo, Troms og Finnmark,1746,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860129
+Lars,Olsen,Male,lars_olsen@bivgs.no,22 Sørlandsveien, Stavanger, Rogaland,4676,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860130
+Bj�rn,Larsen,Male,bj�rn_larsen@bivgs.no,31 Sørlandsveien, Tromsø, Møre og Romsdal,4558,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860131
+Sofie,Jensen,Female,sofie_jensen@bivgs.no,145 Fjordveien, Drammen, Viken,8055,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860132
+Emma,de Vries,Female,emma_de vries@bivgs.no,124 Fjordveien, Kristiansand, Vestland,6025,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860133
+Solveig,Eliassen,Female,solveig_eliassen@bivgs.no,17 Kirkeveien, Ålesund, Agder,9993,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860134
+Odd,Knudsen,Male,odd_knudsen@bivgs.no,82 Fjordveien, Bergen, Møre og Romsdal,6961,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860135
+Grethe,Myklebust,Female,grethe_myklebust@bivgs.no,113 E6, Drammen, Viken,8137,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860136
+Marco,Rossi,Male,marco_rossi@bivgs.no,120 Kirkeveien, Ålesund, Viken,9818,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860137
+Ingrid,Eide,Female,ingrid_eide@bivgs.no,2 Fjordveien, Ålesund, Innlandet,9818,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860138
+Hanna,Andresen,Female,hanna_andresen@bivgs.no,38 Kirkeveien, Trondheim, Viken,8084,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860139
+Jorunn,Eliassen,Female,jorunn_eliassen@bivgs.no,2 E6, Bergen, Oslo,8627,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860140
+Sebastian,Kristiansen,Male,sebastian_kristiansen@bivgs.no,17 Sørlandsveien, Oslo, Agder,5196,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860141
+Camilla,Mikkelsen,Female,camilla_mikkelsen@bivgs.no,109 Sørlandsveien, Trondheim, Agder,4649,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860142
+Prof,Birkeland,Male,prof_birkeland@bivgs.no,47 E6, Ålesund, Vestland,8462,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860143
+Hanna,Isaksen,Female,hanna_isaksen@bivgs.no,97 E6, Drammen, Vestland,7476,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860144
+Kristine,Berg,Female,kristine_berg@bivgs.no,87 Fjordveien, Oslo, Innlandet,5093,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860145
+Carmen,Rodr�guez,Female,carmen_rodr�guez@bivgs.no,50 Sørlandsveien, Bergen, Rogaland,7221,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860146
+Odd,Ahmed,Male,odd_ahmed@bivgs.no,124 E6, Stavanger, Troms og Finnmark,5061,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860147
+Gunnar,Brekke,Male,gunnar_brekke@bivgs.no,29 Kirkeveien, Ålesund, Troms og Finnmark,2011,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860148
+Gerd,Bakken,Female,gerd_bakken@bivgs.no,58 Sørlandsveien, Bergen, Møre og Romsdal,3547,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860149
+Aisha,Nakaweesi,Female,aisha_nakaweesi@bivgs.no,107 Sørlandsveien, Bergen, Vestland,7962,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860150
+Kato,Muwanguzi,Male,kato_muwanguzi@bivgs.no,95 Sørlandsveien, Haugesund, Oslo,1437,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860151
+Nansubuga,Nakalema,Female,nansubuga_nakalema@bivgs.no,74 Fjordveien, Drammen, Viken,2517,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860152
+Joakim,Edvardsen,Male,joakim_edvardsen@bivgs.no,110 E6, Haugesund, Trøndelag,6728,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860153
+Don,Pettersen,Male,don_pettersen@bivgs.no,50 E6, Haugesund, Trøndelag,2517,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860154
+Perry,R�nning,Female,perry_r�nning@bivgs.no,126 Storgata, Tromsø, Vestland,8627,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860155
+Frank,Abrahamsen,Male,frank_abrahamsen@bivgs.no,79 E6, Trondheim, Møre og Romsdal,1537,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860156
+Line,N�ss,Female,line_n�ss@bivgs.no,71 Sørlandsveien, Oslo, Viken,7483,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860157
+Thor,Sandvik,Male,thor_sandvik@bivgs.no,83 Fjordveien, Stavanger, Innlandet,9901,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860158
+Petter,Ellingsen,Male,petter_ellingsen@bivgs.no,102 E6, Drammen, Innlandet,5061,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860159
+Sindre,Hansen,Male,sindre_hansen@bivgs.no,144 E6, Drammen, Innlandet,9818,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860160
+Simen,Myhre,Female,simen_myhre@bivgs.no,11 Storgata, Ålesund, Møre og Romsdal,6207,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860161
+Bj�rg,Fredriksen,Male,bj�rg_fredriksen@bivgs.no,33 Kirkeveien, Drammen, Oslo,4614,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860162
+Trond,Karlsen,Female,trond_karlsen@bivgs.no,40 Sørlandsveien, Stavanger, Troms og Finnmark,8084,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860163
+Emily,Thompson,Female,emily_thompson@bivgs.no,103 Kirkeveien, Haugesund, Vestland,7962,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860164
+Unni,Jacobsen,Female,unni_jacobsen@bivgs.no,7 Fjordveien, Bergen, Trøndelag,7731,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860165
+Grethe,Brekke,Female,grethe_brekke@bivgs.no,19 Sørlandsveien, Tromsø, Vestland,3511,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860166
+Ruth,Pedersen,Female,ruth_pedersen@bivgs.no,41 Storgata, Tromsø, Møre og Romsdal,1437,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860167
+Inger,Jensen,Male,inger_jensen@bivgs.no,2 Fjordveien, Kristiansand, Møre og Romsdal,4365,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860168
+Peninah,Andresen,Female,peninah_andresen@bivgs.no,72 Sørlandsveien, Tromsø, Trøndelag,9818,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860169
+Berit,Eide,Female,berit_eide@bivgs.no,55 Fjordveien, Stavanger, Agder,6728,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860170
+Jenny,Kristoffersen,Female,jenny_kristoffersen@bivgs.no,20 Sørlandsveien, Stavanger, Møre og Romsdal,7962,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860171
+Thea,Knutsen,Male,thea_knutsen@bivgs.no,78 E6, Drammen, Trøndelag,3554,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860172
+Dag,Arnesen,Male,dag_arnesen@bivgs.no,23 Storgata, Tromsø, Rogaland,6581,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860173
+Mwanaidi,Ali,Female,mwanaidi_ali@bivgs.no,79 E6, Stavanger, Vestland,4119,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860174
+Bj�rn,Pedersen,Female,bj�rn_pedersen@bivgs.no,136 Storgata, Kristiansand, Troms og Finnmark,9931,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860175
+Chinedu,Morison,Male,chinedu_morison@bivgs.no,105 Kirkeveien, Bergen, Innlandet,6457,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860176
+Irene,Str�mertan,Female,irene_str�mertan@bivgs.no,27 Fjordveien, Ålesund, Vestland,6649,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860177
+Chinedu,Okafor,Male,chinedu_okafor@bivgs.no,103 Storgata, Oslo, Viken,4952,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860178
+Marianne,Ruud,Male,marianne_ruud@bivgs.no,22 E6, Bergen, Møre og Romsdal,7800,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860179
+Jens,Lunde,Male,jens_lunde@bivgs.no,33 Kirkeveien, Fredrikstad, Vestland,4676,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860180
+Morten,Olsen,Female,morten_olsen@bivgs.no,85 Sørlandsveien, Haugesund, Møre og Romsdal,2011,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860181
+Karoline,Ahmed,Female,karoline_ahmed@bivgs.no,81 Fjordveien, Fredrikstad, Oslo,6728,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860182
+Ola,Bakke,Female,ola_bakke@bivgs.no,118 Storgata, Kristiansand, Rogaland,6490,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860183
+Tore,Abrahamsen,Female,tore_abrahamsen@bivgs.no,61 Kirkeveien, Trondheim, Rogaland,3182,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860184
+Caroline,Narocho,Female,caroline_narocho@bivgs.no,108 Sørlandsveien, Ålesund, Troms og Finnmark,8176,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860185
+Silvia,Berg,Female,silvia_berg@bivgs.no,145 Kirkeveien, Drammen, Trøndelag,6917,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860186
+Valentino,Ojiambo,Male,valentino_ojiambo@bivgs.no,25 Kirkeveien, Oslo, Oslo,6917,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860187
+Peter,Kubebea,Male,peter_kubebea@bivgs.no,2 Storgata, Kristiansand, Vestland,4558,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860188
+Anna,M�ller,Female,anna_m�ller@bivgs.no,4 Sørlandsveien, Ålesund, Trøndelag,6917,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860189
+Lucas,Schmidt,Male,lucas_schmidt@bivgs.no,17 Kirkeveien, Haugesund, Agder,4650,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860190
+Marie,Dubois,Female,marie_dubois@bivgs.no,113 Sørlandsveien, Drammen, Rogaland,6581,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860191
+Thomas,Garc�a,Male,thomas_garc�a@bivgs.no,75 Fjordveien, Bergen, Innlandet,3438,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860192
+Emma,Janssen,Female,emma_janssen@bivgs.no,149 Sørlandsveien, Kristiansand, Innlandet,8462,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860193
+Maximilan,Martini,Male,maximilan_martini@bivgs.no,89 Sørlandsveien, Tromsø, Rogaland,3511,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860194
+Clara,Bernard,Female,clara_bernard@bivgs.no,147 Kirkeveien, Stavanger, Agder,4519,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860195
+Julian,Nielsen,Male,julian_nielsen@bivgs.no,86 Fjordveien, Trondheim, Innlandet,6732,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860196
+Sophie,Brown,Female,sophie_brown@bivgs.no,45 Sørlandsveien, Oslo, Vestland,5196,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860197
+Leon,Bauer,Male,leon_bauer@bivgs.no,3 Kirkeveien, Drammen, Agder,1437,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860198
+Mohammed,Salim,Male,mohammed_salim@bivgs.no,60 Kirkeveien, Ålesund, Viken,9222,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860199

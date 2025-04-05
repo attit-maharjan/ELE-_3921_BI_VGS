@@ -1,0 +1,201 @@
+/* Footer link styles */
+.footer-link {
+    color: #f8f9fa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #0d6efd;
+}
+
+/* Social media icon styles */
+.social-icon {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    margin: 0 8px;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: translateY(-3px);
+    color: #fff;
+}
+
+
+.rounded-logo {
+    border-radius: 10px; /* Adjust for desired roundness */
+}
+
+.school-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333; /* Solid color for fallback */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    padding: 10px 0;
+    text-shadow: 
+        1px 1px 2px rgba(0, 123, 255, 0.6), 
+        -1px -1px 2px rgba(0, 86, 179, 0.6); /* Simulate gradient */
+    border-bottom: 4px solid #007bff;
+}
+
+
+
+
+/* Corporate Red Background */
+.corporate-bg {
+    background-color: #b71c1c !important; /* Corporate Red */
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+/* Hover Effect for Image */
+.hover-zoom {
+    transition: transform 0.3s ease-in-out;
+}
+.hover-zoom:hover {
+    transform: scale(1.05);
+}
+
+.img-shadow {
+    display: block; /* Ensures proper sizing */
+    max-width: 100%; /* Ensures image responsiveness */
+    height: auto; /* Keeps aspect ratio */
+    
+    /* Apply a bottom shadow */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+
+.img-landing-page-round {
+    display: block; /* Ensures proper rendering */
+    max-width: 100%; /* Responsive scaling */
+    height: auto; /* Maintain aspect ratio */
+    
+    /* Apply rounded corners ONLY at the top-left and top-right */
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px; 
+    
+    /* Optional: Add a smooth shadow effect */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.list-group-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
+/* Announcements */
+
+/* Corporate Color Scheme */
+.corporate-red {
+    color: #b71c1c; /* Red color */
+}
+
+.corporate-blue {
+    color: #1976D2; /* Blue color */
+}
+
+/* Style for Announcement List */
+.announcement-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.announcement-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #F2F2F2;
+}
+
+.announcement-header {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.announcement-date {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.announcement-body {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.announcement-header-bg {
+    background-color: #f9f9f9; /* Light Beige */
+  }
+
+
+  .scrolling-announcements {
+    width: 100%;
+    max-height: 120px; /* Adjust based on design */
+    overflow: hidden;
+    position: relative;
+    background: #000000; /* Light background */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.announcement-scroll {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    animation: scroll-up 10s linear infinite;
+}
+
+@keyframes scroll-up {
+    0% { transform: translateY(100%); }
+    100% { transform: translateY(-100%); }
+}
+
+
+
+/* Button Styles */
+.btn-custom {
+    background-color: #b71c1c; /* Corporate Red */
+    color: white !important;
+    border: 2px solid #b71c1c; /* Match button border with the background */
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+    background-color: #9c1a1a; /* Darker shade on hover */
+    border-color: #9c1a1a;
+    text-decoration: none;
+}
+
+.btn-custom i {
+    margin-right: 8px; /* Space between the icon and the text */
+}
+
+.btn-group {
+    display: flex;
+}
+
+
+
+
+
+
+

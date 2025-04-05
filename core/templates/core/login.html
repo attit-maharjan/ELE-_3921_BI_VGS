@@ -1,0 +1,137 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Contact Us - DataScience 2023 Blog{% endblock %}
+
+{% block mainContent %}
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+        }
+
+        .login-container {
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        .button-group {
+            position: fixed;
+            bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 300px;
+        }
+
+        .login-button {
+            width: 100%;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .login-button:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .dropdown-options {
+            display: none;
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+        }
+
+        .dropdown-options.show {
+            display: block;
+        }
+
+        .option-item {
+            padding: 15px;
+            color: #1e3c72;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+
+        .option-item:hover {
+            background: rgba(30, 60, 114, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>School Portal</h1>
+    </div>
+
+    <div class="button-group">
+        <!-- Student/Parents Login Button -->
+        <div class="login-button" onclick="toggleDropdown('family')">
+            Student/Parents Login
+            <div class="dropdown-options" id="family-options">
+                <div class="option-item" onclick="handleLogin('student_login')">Student Login</div>
+                <div class="option-item" onclick="handleLogin('parent_login')">Parents Login</div>
+            </div>
+        </div>
+
+        <!-- Stakeholders Login Button -->
+        <div class="login-button" onclick="toggleDropdown('staff')">
+            Stakeholders Login
+            <div class="dropdown-options" id="staff-options">
+                <div class="option-item" onclick="handleLogin('teacher_login')">Teacher Login</div>
+                <div class="option-item" onclick="handleLogin('stakeholder_login')">Stakeholder Login</div>
+                <div class="option-item" onclick="handleLogin('staff_login')">Admin Login</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleDropdown(type) {
+            // Close all dropdowns first
+            document.querySelectorAll('.dropdown-options').forEach(dropdown => {
+                dropdown.classList.remove('show');
+            });
+
+            // Toggle the clicked dropdown
+            const dropdown = document.getElementById(`${type}-options`);
+            dropdown.classList.toggle('show');
+        }
+
+        function handleLogin(role) {
+            window.location.href = `/${role}/`;  // Redirects to respective login page
+        }
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.login-button')) {
+                document.querySelectorAll('.dropdown-options').forEach(dropdown => {
+                    dropdown.classList.remove('show');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
+{% endblock %}

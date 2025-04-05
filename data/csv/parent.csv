@@ -1,0 +1,78 @@
+fNAME,lNAME,gender,email,street_address,city,state_province,postal_code,country,password1,password2,phone_number,Relationship
+Bush,Binger,Female,Bush_Binger@testparent.com,51 Kirkeveien, Fredrikstad, Viken,7731,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860123,Mother
+Stone,Walekhwa,Female,Stone_Walekhwa@testparent.com,130 E6, Ålesund, Innlandet,1468,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860124,Mother
+Brook,Leo,Female,Brook_Leo@testparent.com,65 Storgata, Tromsø, Agder,8845,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860125,Mother
+Cliff,Hlongwane,Female,Cliff_Hlongwane@testparent.com,55 E6, Drammen, Trøndelag,1406,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860126,Mother
+Reed,Kedibone,Male,Reed_Kedibone@testparent.com,22 Kirkeveien, Oslo, Troms og Finnmark,4952,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860127,Gurdian
+Ash,Hansen,Female,Ash_Hansen@testparent.com,141 Sørlandsveien, Bergen, Møre og Romsdal,6025,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860128,Gurdian
+Grant,Johansen,Male,Grant_Johansen@testparent.com,26 Sørlandsveien, Oslo, Troms og Finnmark,1746,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860129,Father
+Dale,Olsen,Female,Dale_Olsen@testparent.com,22 Sørlandsveien, Stavanger, Rogaland,4676,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860130,Mother
+Wade,Larsen,Female,Wade_Larsen@testparent.com,31 Sørlandsveien, Tromsø, Møre og Romsdal,4558,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860131,Mother
+Lane,Jensen,Female,Lane_Jensen@testparent.com,145 Fjordveien, Drammen, Viken,8055,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860132,Mother
+Holt,de Vries,Male,Holt_de Vries@testparent.com,124 Fjordveien, Kristiansand, Vestland,6025,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860133,Father
+Frost,Eliassen,Female,Frost_Eliassen@testparent.com,17 Kirkeveien, Ålesund, Agder,9993,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860134,Mother
+Ford,Knudsen,Male,Ford_Knudsen@testparent.com,82 Fjordveien, Bergen, Møre og Romsdal,6961,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860135,Father
+Chase,Myklebust,Female,Chase_Myklebust@testparent.com,113 E6, Drammen, Viken,8137,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860136,Mother
+Blair,Rossi,Female,Blair_Rossi@testparent.com,120 Kirkeveien, Ålesund, Viken,9818,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860137,Mother
+Hale,Eide,Female,Hale_Eide@testparent.com,2 Fjordveien, Ålesund, Innlandet,9818,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860138,Mother
+Glen,Andresen,Male,Glen_Andresen@testparent.com,38 Kirkeveien, Trondheim, Viken,8084,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860139,Father
+Brock,Eliassen,Male,Brock_Eliassen@testparent.com,2 E6, Bergen, Oslo,8627,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860140,Father
+Drake,Kristiansen,Female,Drake_Kristiansen@testparent.com,17 Sørlandsveien, Oslo, Agder,5196,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860141,Mother
+Cole,Mikkelsen,Female,Cole_Mikkelsen@testparent.com,109 Sørlandsveien, Trondheim, Agder,4649,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860142,Mother
+Ray,Birkeland,Male,Ray_Birkeland@testparent.com,47 E6, Ålesund, Vestland,8462,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860143,Father
+Beau,Isaksen,Female,Beau_Isaksen@testparent.com,97 E6, Drammen, Vestland,7476,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860144,Gurdian
+Troy,Berg,Male,Troy_Berg@testparent.com,87 Fjordveien, Oslo, Innlandet,5093,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860145,Father
+Quinn,Rodr�guez,Male,Quinn_Rodr�guez@testparent.com,50 Sørlandsveien, Bergen, Rogaland,7221,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860146,Father
+Sage,Ahmed,Female,Sage_Ahmed@testparent.com,124 E6, Stavanger, Troms og Finnmark,5061,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860147,Mother
+Dean,Brekke,Male,Dean_Brekke@testparent.com,29 Kirkeveien, Ålesund, Troms og Finnmark,2011,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860148,Father
+Kent,Bakken,Female,Kent_Bakken@testparent.com,58 Sørlandsveien, Bergen, Møre og Romsdal,3547,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860149,Mother
+Blake,Nakaweesi,Male,Blake_Nakaweesi@testparent.com,107 Sørlandsveien, Bergen, Vestland,7962,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860150,Gurdian
+Gage,Muwanguzi,Male,Gage_Muwanguzi@testparent.com,95 Sørlandsveien, Haugesund, Oslo,1437,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860151,Father
+Roy,Nakalema,Male,Roy_Nakalema@testparent.com,74 Fjordveien, Drammen, Viken,2517,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860152,Father
+Drew,Edvardsen,Female,Drew_Edvardsen@testparent.com,110 E6, Haugesund, Trøndelag,6728,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860153,Mother
+Blaine,Pettersen,Male,Blaine_Pettersen@testparent.com,50 E6, Haugesund, Trøndelag,2517,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860154,Father
+Shane,R�nning,Female,Shane_R�nning@testparent.com,126 Storgata, Tromsø, Vestland,8627,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860155,Mother
+Ross,Abrahamsen,Female,Ross_Abrahamsen@testparent.com,79 E6, Trondheim, Møre og Romsdal,1537,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860156,Mother
+Vance,N�ss,Female,Vance_N�ss@testparent.com,71 Sørlandsveien, Oslo, Viken,7483,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860157,Mother
+Lance,Sandvik,Female,Lance_Sandvik@testparent.com,83 Fjordveien, Stavanger, Innlandet,9901,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860158,Mother
+Todd,Ellingsen,Female,Todd_Ellingsen@testparent.com,102 E6, Drammen, Innlandet,5061,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860159,Mother
+Clay,Hansen,Male,Clay_Hansen@testparent.com,144 E6, Drammen, Innlandet,9818,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860160,Father
+Jett,Myhre,Female,Jett_Myhre@testparent.com,11 Storgata, Ålesund, Møre og Romsdal,6207,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860161,Mother
+Tate,Fredriksen,Female,Tate_Fredriksen@testparent.com,33 Kirkeveien, Drammen, Oslo,4614,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860162,Mother
+Wynn,Karlsen,Female,Wynn_Karlsen@testparent.com,40 Sørlandsveien, Stavanger, Troms og Finnmark,8084,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860163,Mother
+Hart,Thompson,Male,Hart_Thompson@testparent.com,103 Kirkeveien, Haugesund, Vestland,7962,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860164,Father
+Brett,Jacobsen,Male,Brett_Jacobsen@testparent.com,7 Fjordveien, Bergen, Trøndelag,7731,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860165,Father
+Miles,Brekke,Female,Miles_Brekke@testparent.com,19 Sørlandsveien, Tromsø, Vestland,3511,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860166,Mother
+Rhys,Pedersen,Female,Rhys_Pedersen@testparent.com,41 Storgata, Tromsø, Møre og Romsdal,1437,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860167,Gurdian
+Scott,Jensen,Male,Scott_Jensen@testparent.com,2 Fjordveien, Kristiansand, Møre og Romsdal,4365,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860168,Father
+Heath,Andresen,Female,Heath_Andresen@testparent.com,72 Sørlandsveien, Tromsø, Trøndelag,9818,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860169,Mother
+Perry,Eide,Male,Perry_Eide@testparent.com,55 Fjordveien, Stavanger, Agder,6728,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860170,Father
+Hugh,Kristoffersen,Male,Hugh_Kristoffersen@testparent.com,20 Sørlandsveien, Stavanger, Møre og Romsdal,7962,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860171,Gurdian
+Joel,Knutsen,Male,Joel_Knutsen@testparent.com,78 E6, Drammen, Trøndelag,3554,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860172,Father
+Trent,Arnesen,Female,Trent_Arnesen@testparent.com,23 Storgata, Tromsø, Rogaland,6581,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860173,Mother
+Seth,Ali,Female,Seth_Ali@testparent.com,79 E6, Stavanger, Vestland,4119,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860174,Mother
+Chad,Pedersen,Female,Chad_Pedersen@testparent.com,136 Storgata, Kristiansand, Troms og Finnmark,9931,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860175,Mother
+Bruce,Morison,Female,Bruce_Morison@testparent.com,105 Kirkeveien, Bergen, Innlandet,6457,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860176,Mother
+Craig,Str�mertan,Female,Craig_Str�mertan@testparent.com,27 Fjordveien, Ålesund, Vestland,6649,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860177,Mother
+Luke,Okafor,Female,Luke_Okafor@testparent.com,103 Storgata, Oslo, Viken,4952,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860178,Mother
+Mark,Ruud,Male,Mark_Ruud@testparent.com,22 E6, Bergen, Møre og Romsdal,7800,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860179,Father
+Shawn,Lunde,Male,Shawn_Lunde@testparent.com,33 Kirkeveien, Fredrikstad, Vestland,4676,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860180,Father
+Kyle,Olsen,Female,Kyle_Olsen@testparent.com,85 Sørlandsveien, Haugesund, Møre og Romsdal,2011,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860181,Mother
+Dustin,Ahmed,Male,Dustin_Ahmed@testparent.com,81 Fjordveien, Fredrikstad, Oslo,6728,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860182,Gurdian
+Curtis,Bakke,Female,Curtis_Bakke@testparent.com,118 Storgata, Kristiansand, Rogaland,6490,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860183,Mother
+Toby,Abrahamsen,Male,Toby_Abrahamsen@testparent.com,61 Kirkeveien, Trondheim, Rogaland,3182,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860184,Father
+Owen,Narocho,Female,Owen_Narocho@testparent.com,108 Sørlandsveien, Ålesund, Troms og Finnmark,8176,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860185,Mother
+Paul,Berg,Male,Paul_Berg@testparent.com,145 Kirkeveien, Drammen, Trøndelag,6917,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860186,Father
+Eric,Ojiambo,Female,Eric_Ojiambo@testparent.com,25 Kirkeveien, Oslo, Oslo,6917,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860187,Mother
+Zane,Kubebea,Male,Zane_Kubebea@testparent.com,2 Storgata, Kristiansand, Vestland,4558,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860188,Father
+Sean,M�ller,Female,Sean_M�ller@testparent.com,4 Sørlandsveien, Ålesund, Trøndelag,6917,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860189,Mother
+Brad,Schmidt,Male,Brad_Schmidt@testparent.com,17 Kirkeveien, Haugesund, Agder,4650,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860190,Father
+Reece,Dubois,Male,Reece_Dubois@testparent.com,113 Sørlandsveien, Drammen, Rogaland,6581,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860191,Father
+Logan,Garc�a,Male,Logan_Garc�a@testparent.com,75 Fjordveien, Bergen, Innlandet,3438,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860192,Father
+Ethan,Janssen,Male,Ethan_Janssen@testparent.com,149 Sørlandsveien, Kristiansand, Innlandet,8462,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860193,Father
+Mason,Martini,Female,Mason_Martini@testparent.com,89 Sørlandsveien, Tromsø, Rogaland,3511,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860194,Mother
+Clark,Bernard,Female,Clark_Bernard@testparent.com,147 Kirkeveien, Stavanger, Agder,4519,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860195,Mother
+Adam,Nielsen,Female,Adam_Nielsen@testparent.com,86 Fjordveien, Trondheim, Innlandet,6732,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860196,Gurdian
+Bryce,Brown,Male,Bryce_Brown@testparent.com,45 Sørlandsveien, Oslo, Vestland,5196,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860197,Father
+Joel,Bauer,Male,Joel_Bauer@testparent.com,3 Kirkeveien, Drammen, Agder,1437,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860198,Father
+Grant,Salim,Male,Grant_Salim@testparent.com,60 Kirkeveien, Ålesund, Viken,9222,Norway,@0BusiaKenya,@0BusiaKenya,'+4774860199,Gurdian

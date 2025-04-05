@@ -1,0 +1,77 @@
+from django.contrib import admin
+from django.contrib.auth.admin import UserAdmin
+from .models import User, Teacher, Student, Parent, Staff, Stakeholder, Qualification
+
+
+class CustomUserAdmin(UserAdmin):
+    model = User
+    list_display = ('username', 'first_name', 'last_name', 'email', 'role', 'is_active', 'date_joined')
+    list_filter = ('is_active', 'role', 'groups')
+    search_fields = ('first_name', 'last_name', 'email', 'role')
+    ordering = ('date_joined',)
+    
+    fieldsets = (
+        (None, {
+            'fields': ('username', 'first_name', 'last_name', 'email', 'dob', 'role', 'is_active')
+        }),
+        ('Permissions', {
+            'fields': ('groups', 'user_permissions')
+        }),
+        # Do Not Include 'date_joined' since it's non-editable
+    )
+    
+    add_fieldsets = (
+        (None, {
+            'fields': ('username', 'first_name', 'last_name', 'email', 'dob', 'role', 'is_active', 'password1', 'password2')
+        }),
+    )
+
+
+
+
+class QualificationInline(admin.TabularInline):  # Inline form for Teacher Admin
+    model = Qualification
+    extra = 1  # Number of blank qualification entries to show
+
+class TeacherAdmin(admin.ModelAdmin):
+    list_display = ('user', 'employee_id', 'hire_date')
+    search_fields = ('user__first_name', 'user__last_name', 'employee_id')
+    list_filter = ('hire_date',)
+    filter_horizontal = ('subject_specialization',)  # Enable multi-select in Django Admin
+    inlines = [QualificationInline]  # Allow adding qualifications inside Teacher admin page
+
+
+
+    
+
+class StudentAdmin(admin.ModelAdmin):
+    list_display = ('user', 'student_id', 'enrollment_date', 'grade_level', 'guardian')
+    search_fields = ('user__first_name', 'user__last_name', 'student_id')
+    list_filter = ('enrollment_date', 'grade_level')
+
+
+class ParentAdmin(admin.ModelAdmin):
+    list_display = ('user', 'relationship_to_student', 'phone_number')
+    search_fields = ('user__first_name', 'user__last_name', 'phone_number')
+    list_filter = ('relationship_to_student',)
+
+
+class StaffAdmin(admin.ModelAdmin):
+    list_display = ('user', 'staff_role', 'hire_date', 'salary')
+    search_fields = ('user__first_name', 'user__last_name', 'staff_role')
+    list_filter = ('hire_date',)
+
+
+class StakeholderAdmin(admin.ModelAdmin):
+    list_display = ('user', 'stakeholder_type')
+    search_fields = ('user__first_name', 'user__last_name', 'stakeholder_type')
+    list_filter = ('stakeholder_type',)
+
+
+# Register the models with their respective admin classes
+admin.site.register(User, CustomUserAdmin)
+admin.site.register(Teacher, TeacherAdmin)
+admin.site.register(Student, StudentAdmin)
+admin.site.register(Parent, ParentAdmin)
+admin.site.register(Staff, StaffAdmin)
+admin.site.register(Stakeholder, StakeholderAdmin)

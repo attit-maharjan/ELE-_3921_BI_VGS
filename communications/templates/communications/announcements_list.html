@@ -1,0 +1,55 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block title %}Latest Announcements - BIVGS{% endblock %}
+
+{% block mainContent %}
+<div class="container">
+    <section class="announcements">
+        <h2 class="corporate-blue"><i class="fas fa-bullhorn"></i> Latest Announcements</h2>
+        {% if active_announcements %}
+            <ol class="announcement-list">
+                {% for announcement in active_announcements %}
+                    <li class="announcement-item">
+                        <div class="announcement-header announcement-header-bg">
+                            <strong class="corporate-red"><i class="fas fa-bell"></i> {{ announcement.title }}</strong> 
+                            <span class="announcement-date corporate-blue">
+                                <i class="fas fa-calendar-alt"></i> {{ announcement.created_at|date:"F d, Y" }}
+                            </span>
+                        </div>
+                        <div><hr></div>
+                        <div class="announcement-body">
+                            <p><strong class="corporate-blue"><i class="fas fa-tag"></i> Category:</strong>
+                                {% if announcement.category %}
+                                    <span class="corporate-blue">{{ announcement.category }}</span>
+                                {% else %}
+                                    <span class="corporate-red">Uncategorized</span>
+                                {% endif %}
+                            </p>
+
+                            <p><strong class="corporate-blue"><i class="fas fa-hourglass-half"></i> Expiration Date:</strong>
+                                {% if announcement.deadline %}
+                                    <span class="corporate-blue">{{ announcement.deadline|date:"F d, Y" }}</span>
+                                {% else %}
+                                    <span class="corporate-red">No Expiry</span>
+                                {% endif %}
+                            </p>
+
+                            <p><strong><i class="fas fa-envelope-open-text"></i> Message:</strong> 
+                                {{ announcement.message|truncatewords:30 }}
+                            </p>
+
+                            <!-- "Read More" Button -->
+                            <a href="{% url 'communications:announcement_detail' pk=announcement.pk %}" class="btn btn-custom">
+                                Read More
+                            </a>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ol>
+        {% else %}
+            <p><i class="fas fa-info-circle"></i> No announcements available at the moment. Please check back later.</p>
+        {% endif %}
+    </section>
+</div>
+{% endblock %}

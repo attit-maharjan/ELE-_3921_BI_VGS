@@ -1,0 +1,156 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block mainContent %}
+<div class="login-container">
+    <div class="login-card">
+        <div class="school-brand">
+            <img src="{{ school_settings.school_logo.url }}" alt="School Logo" class="logo">
+            <h1>{{ school_settings.school_name }}</h1>
+            {% if school_settings.school_motto %}
+                <h3>"{{ school_settings.school_motto }}"</h3>
+            {% endif %}
+        </div>
+        
+        <h2>Staff Portal</h2>
+        
+        <!-- Error Message Display -->
+        {% if form.errors %}
+        <div class="alert alert-danger">
+            Invalid credentials. Please try again.
+        </div>
+        {% endif %}
+
+        <form method="post" action="{% url 'core:stakeholder_login' %}" class="login-form">
+            {% csrf_token %}
+            
+            <div class="form-group">
+                <label for="username">Username/Email</label>
+                <input type="text" id="username" name="username" required class="form-control">
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required class="form-control">
+            </div>
+
+            <!-- Remember Me & Forgot Password -->
+            <div class="form-options">
+                <label class="remember-me">
+                    <input type="checkbox" name="remember"> Remember Me
+                </label>
+                <a href="{% url 'core:stakeholder_login' %}" class="forgot-password">
+                    Forgot Password?
+                </a>
+            </div>
+
+            <button type="submit" class="btn-login">Access Portal</button>
+        </form>
+
+        <div class="login-links">
+            <span>Access other portals: </span>
+            <a href="{% url 'core:parent_login' %}" class="portal-link">Parent</a>
+            <span> | </span>
+            <a href="{% url 'core:student_login' %}" class="portal-link">Student</a>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    /* Consistent styling with parent login */
+    .login-container {
+        max-width: 400px;
+        margin: 2rem auto;
+        padding: 2rem;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+
+    .school-brand {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .school-brand img.logo {
+        max-width: 100px;
+        margin-bottom: 1rem;
+    }
+
+    .alert-danger {
+        color: #721c24;
+        background-color: #f8d7da;
+        border-color: #f5c6cb;
+        padding: 0.75rem 1.25rem;
+        margin-bottom: 1rem;
+        border-radius: 4px;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 0.75rem;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin-bottom: 1rem;
+    }
+
+    .form-options {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1rem 0;
+    }
+
+    .btn-login {
+        width: 100%;
+        padding: 0.75rem;
+        background: #2ecc71; /* Different color for staff portal */
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+
+    .btn-login:hover {
+        background: #27ae60;
+    }
+
+    .login-links {
+        margin-top: 1.5rem;
+        text-align: center;
+        color: #666;
+    }
+
+    .portal-link {
+        color: #2ecc71;
+        text-decoration: none;
+        margin: 0 0.3rem;
+    }
+
+    .recaptcha-container {
+        margin: 1.5rem 0;
+    }
+
+    .g-recaptcha {
+        display: inline-block;
+    }
+</style>
+
+<script>
+    // Form validation
+    document.querySelector('.login-form').addEventListener('submit', function(e) {
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+        const recaptcha = grecaptcha.getResponse();
+        
+        if (!username || !password || !recaptcha) {
+            e.preventDefault();
+            const errorDiv = document.querySelector('.alert-danger');
+            errorDiv.textContent = 'Please fill all required fields and complete the CAPTCHA';
+            errorDiv.style.display = 'block';
+        }
+    });
+</script>
+{% endblock %} 

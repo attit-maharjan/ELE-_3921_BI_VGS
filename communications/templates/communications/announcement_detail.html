@@ -1,0 +1,35 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block title %}{{ announcement.title }} - BIVGS{% endblock %}
+
+{% block mainContent %}
+<div class="container">
+    <section class="announcement-details">
+        <h2 class="corporate-red"><i class="fas fa-bullhorn"></i> {{ announcement.title }}</h2>
+        <p class="announcement-date corporate-blue"><i class="fas fa-calendar-alt"></i> {{ announcement.created_at|date:"F d, Y" }}</p>
+
+        <div class="announcement-body">
+            <p><strong class="corporate-blue"><i class="fas fa-tag"></i> Category:</strong>
+                {% if announcement.category %}
+                    <span class="corporate-blue">{{ announcement.category }}</span>
+                {% else %}
+                    <span class="corporate-red">Uncategorized</span>
+                {% endif %}
+            </p>
+
+            <p><strong class="corporate-blue"><i class="fas fa-hourglass-half"></i> Expiration Date:</strong>
+                {% if announcement.deadline %}
+                    <span class="corporate-blue">{{ announcement.deadline|date:"F d, Y" }}</span>
+                {% else %}
+                    <span class="corporate-red">No Expiry</span>
+                {% endif %}
+            </p>
+
+            <p>{{ announcement.message }}</p>
+        </div>
+
+        <a href="{% url 'communications:announcements_list' %}" class="btn btn-custom"><i class="fas fa-arrow-left"></i> Back to Announcements</a>
+    </section>
+</div>
+{% endblock %}
